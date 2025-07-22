@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Hero Image Slideshow
     const heroImage = document.getElementById("heroImage");
     const images = [
-        "/images/froi.jpg",
-        "/images/froi2.jpg",
-        "/images/froi3.jpg"
+        "./images/froi.jpg",
+        "./images/froi2.jpg",
+        "./images/froi3.jpg"
     ];
     
     let currentImageIndex = 0;
